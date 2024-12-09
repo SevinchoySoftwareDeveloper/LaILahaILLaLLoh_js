@@ -1,0 +1,10 @@
+.geogle_form {
+  width: 400px;
+  height: 400px;
+  background-color: bisque;
+}
+.geogle_form form label {
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}

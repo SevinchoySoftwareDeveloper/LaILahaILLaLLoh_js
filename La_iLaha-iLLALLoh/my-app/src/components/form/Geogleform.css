@@ -1,0 +1,18 @@
+.carta {
+  width: 80%;
+  height: 500px;
+  margin: 0px auto;
+  background-color: bisque;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.Card {
+  width: 250px;
+  height: 350px;
+  background-color: azure;
+  border-radius: 26px;
+  text-align: center;
+  text-transform: capitalize;
+}

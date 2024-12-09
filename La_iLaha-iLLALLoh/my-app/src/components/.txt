@@ -1,0 +1,31 @@
+Bu loyihada esa (componenttalar) yoziladi masalan: button.js,...
+
+  {/* <Build>
+        <h1>Hello world</h1>
+        {/* <p>it does not matter</p> */}
+        <button onClick={openModal}>open Modal</button>
+      </Build>
+      {showModal && (
+        <Modal closeModal={closeModal}>
+          <h1>
+            If You can Dream <br />
+            It You can do it!!!
+          </h1>
+          <p>
+            Just little more patientle for extually very more happenss!!!
+            <br />
+            Birosta ko'psoq sabr juda ko'b baxt uchun aslida
+          </p>
+        </Modal>
+      )} */} ...App.js
+
+      import Build from "../box/Build";
+import Modal from "../modal/modal";
+import { useState } from "react";
+ const [showModal, setModal] = useState(false);
+  function closeModal() {
+    setModal(false);
+  }
+  function openModal() {
+    setModal(true);
+  }
